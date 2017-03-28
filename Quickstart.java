@@ -139,11 +139,11 @@ public class Quickstart {
                 Logger.getLogger(Quickstart.class.getName()).log(Level.SEVERE, null, ex);
             }
             
-           /* for (List row : values) {
+           for (List row : values) {
                 // Print columns A and E, which correspond to indices 0 and 4.
                 System.out.printf("%s, %s\n", row.get(0), row.get(1));
                 
-            }*/
+            }
            
            SheetsExample se=new SheetsExample();
            se.setWrite(c.s);
